@@ -3,8 +3,8 @@ h3
 	font-size: 50px;
 	font-family: 'Hallelujah', cursive;
 	text-align: center;
-	margin-top: 250px;
-	box-shadow: 2px 4px 15px 2px #bcbcbc;
+	margin-top: 500px;
+	/* box-shadow: 2px 4px 15px 2px #bcbcbc; */
 	transition: all 1s;
 }
 h3:hover
