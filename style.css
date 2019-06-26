@@ -8,6 +8,7 @@
 			flex-wrap:wrap;
 			display: flex;
 			justify-content: center;
+			margin-top: 75px;
 		}
 		.head,
 		.left_arm,
@@ -79,7 +80,7 @@
 		{
 			display: flex;
 			width: 300px;
-			height: 150px;
+			height: auto;
 			margin: 0 auto;
 		}
 		.left_leg, .right_leg
