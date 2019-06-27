@@ -1,6 +1,6 @@
 		h1
 		{
-			color: #bcbcbc;
+			color: #1E1C1C;
 			text-align: center;
 		}
 		.robots
@@ -9,6 +9,37 @@
 			display: flex;
 			justify-content: center;
 			margin-top: 75px;
+		}
+		.android
+		{
+			-webkit-animation: nudge 3s linear infinite alternate;
+			animation: nudge 3s linear infinite alternate;
+		}
+		@-webkit-keyframes nudge
+		{
+			0%,100%
+			{
+				transform: translate(0px,0px);
+				-webkit-transform:translate(0px,0px);
+			}
+			50%
+			{
+				transform: translate(10px,10px);
+				-webkit-transform: translate(10px,10px);
+			}
+		}
+		@keyframes nudge
+		{
+			0%,100%
+			{
+				transform: translate(0px,0px);
+				-webkit-transform:translate(0px,0px);
+			}
+			50%
+			{
+				transform: translate(10px,10px);
+				-webkit-transform: translate(10px,10px);
+			}
 		}
 		.head,
 		.left_arm,
@@ -67,6 +98,10 @@
 		{
 			margin-right: 10px;
 		}
+		.left_arm:hover
+		{
+			transform: rotate(15deg);
+		}
 		.right_arm
 		{
 			margin-left: 10px;
@@ -95,5 +130,9 @@
 		}
 		.right_leg
 		{
-			margin-left: 50px;
+			margin-left: 45px;
+		}
+		.text>p
+		{
+			font-family: Pacifico;
 		}
