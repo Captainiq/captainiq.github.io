@@ -1,7 +1,20 @@
+		body
+		{
+			background-image: url('img/front.jpg');
+		}
 		h1
 		{
 			color: #1E1C1C;
 			text-align: center;
+		}
+		.text>p
+		{
+			font-family: Gloria Hallelujah;
+		}
+		.text a
+		{
+			text-decoration: none;
+			color: #FFF;
 		}
 		.robots
 		{
@@ -17,7 +30,7 @@
 		}
 		@-webkit-keyframes nudge
 		{
-			0%,100%
+			0%
 			{
 				transform: translate(0px,0px);
 				-webkit-transform:translate(0px,0px);
@@ -26,11 +39,16 @@
 			{
 				transform: translate(10px,10px);
 				-webkit-transform: translate(10px,10px);
+			}
+			100%
+			{
+				transform: translate(10px,10px);
+				-webkit-transform: translate(-10px,20px);
 			}
 		}
 		@keyframes nudge
 		{
-			0%,100%
+			0%
 			{
 				transform: translate(0px,0px);
 				-webkit-transform:translate(0px,0px);
@@ -39,6 +57,11 @@
 			{
 				transform: translate(10px,10px);
 				-webkit-transform: translate(10px,10px);
+			}
+			100%
+			{
+				transform: translate(10px,10px);
+				-webkit-transform: translate(-10px,20px);
 			}
 		}
 		.head,
@@ -49,6 +72,7 @@
 		.right_leg
 		{
 			background-color: #3CD070;
+			box-shadow: 3px 3px #bcbcbc;
 		}
 		.head
 		{
@@ -106,6 +130,10 @@
 		{
 			margin-left: 10px;
 		}
+		.right_arm:hover
+		{
+			transform: rotate(-15deg);
+		}
 		.torso
 		{
 			width: 250px;
@@ -132,7 +160,4 @@
 		{
 			margin-left: 45px;
 		}
-		.text>p
-		{
-			font-family: Pacifico;
-		}
+		
